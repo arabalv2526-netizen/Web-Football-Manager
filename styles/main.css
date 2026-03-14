@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face {
     font-family: 'Freshman';
     src: url('/fonts/Freshman.ttf') format('truetype');
@@ -24,13 +25,11 @@
 body {
     display: flex;
     width: 100%;
-    min-height: 2161px;
     flex-direction: column;
     background: #e0dad5;
 }
 
 /*Header*/
-
 header {
     display: flex;
     width: 100%;
@@ -46,7 +45,7 @@ header {
 .header-left {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 header img {
