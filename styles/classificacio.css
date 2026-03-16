@@ -125,6 +125,14 @@ article {
     color: #e79848;
 }
 
+.title-partits {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #1c3d84;
+    text-align: center;
+}
+
 /*Contenidor resultats*/
 .resultats {
     width: 100%;
