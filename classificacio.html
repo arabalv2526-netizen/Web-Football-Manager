@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classificació</title>
+    <link rel="icon" href="img/logos/isotipo_football_manager.png" type="image/png">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/classificacio.css">
 </head>
@@ -12,7 +13,9 @@
 <body>
     <header>
         <div class="header-left">
-            <img src="/img/logos/isotipo_football_manager.png" alt="Logo">
+            <a href="index.html">
+                <img src="/img/logos/isotipo_football_manager.png" alt="Logo">
+            </a>
             <a href="index.html">
                 <h1>FOOTBALL MANAGER</h1>
             </a>
@@ -24,11 +27,84 @@
         </nav>
     </header>
 
+    <article>
+        <div class="intro">
+            <div>
+                <h2 class="title">CLASSIFICACIÓ DE LA LLIGA</h2>
+                <p class="sub-title">Temporada 2025/26</p>
+            </div>
+        </div>
+
+        <div class="podio">
+            <div class="podio-barres">
+                <div class="barra pos-2">
+                    <img class="copa" src="/img/recursos/copa-plata.svg" />
+                    <span>2</span>
+                </div>
+                <div class="barra pos-1">
+                    <img class="copa" src="/img/recursos/copa-oro.svg" />
+                    <span>1</span>
+                </div>
+                <div class="barra pos-3">
+                    <img class="copa" src="/img/recursos/copa-bronze.svg" />
+                    <span>3</span>
+                </div>
+            </div>
+
+            <div class="podio-equips">
+                <div class="equip">
+                    <img src="img/escuts/espanyol.png" />
+                    <span>RCD Español</span>
+                </div>
+                <div class="equip">
+                    <img src="img/escuts/barcelona.png" />
+                    <span>FC Barcelona</span>
+                </div>
+                <div class="equip">
+                    <img src="img/escuts/real-madrid.png" />
+                    <span>Real Madrid</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="partits-container" class="partits-container">
+    </article>
 
     <footer>
-
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://x.com/?lang=es" class="icon x">
+                    <img src="img/recursos/x.svg" alt="Link a X">
+                </a>
+                <a href="https://www.instagram.com/" class="icon instagram">
+                    <img src="img/recursos/insta.svg" alt="Link a Instagram">
+                </a>
+                <a href="https://www.tiktok.com/es-419/" class="icon tiktok">
+                    <img src="img/recursos/tiktok.svg" alt="Link a TikTok">
+                </a>
+                <a href="https://www.facebook.com/" class="icon facebook">
+                    <img src="img/recursos/facebook.svg" alt="Link a Facebook">
+                </a>
+                <a href="https://www.youtube.com/" class="icon youtube">
+                    <img src="img/recursos/youtube.svg" alt="Link a YouTube">
+                </a>
+            </div>
+            <div class="footer-title">
+                <h2>Football Manager</h2>
+            </div>
+            <div class="footer-legal">
+                <p>© 2026 Politècnics Football Manager.<br>Tots el drets reservats.</p>
+                <div class="footer-links">
+                    <a href="data/informe_accesibilitat.pdf" download class="download"
+                        title="Descarregar l'Informe d'Accesibilitat en PDF">Accesibilitat</a>
+                    <a href="#">COOKIES</a>
+                    <a href="#">LEGAL</a>
+                </div>
+            </div>
     </footer>
 
+    <script src="script.js"></script>
+    <script src="/scripts/classificacio.js"></script>
 </body>
 
 </html>

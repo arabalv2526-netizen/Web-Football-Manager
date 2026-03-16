@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face {
     font-family: 'Freshman';
     src: url('/fonts/Freshman.ttf') format('truetype');
@@ -24,13 +25,11 @@
 body {
     display: flex;
     width: 100%;
-    min-height: 2161px;
     flex-direction: column;
     background: #e0dad5;
 }
 
 /*Header*/
-
 header {
     display: flex;
     width: 100%;
@@ -41,12 +40,21 @@ header {
     background: #1C3D84;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     padding-right: 130px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+header.amagat {
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
 .header-left {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 header img {
