@@ -15,7 +15,7 @@
     font-weight: 100 900;
 }
 
-/* - Hero Section -*/
+/* - HERO SECTION -*/
 
 .hero {
     position: relative;
@@ -100,7 +100,7 @@
     background: #2FAE55;
 }
 
-/* - Últimes Notícies -*/
+/* - ÚLTIMES NOTÍCIES - */
 
 .noticies {
     padding: 60px 40px;
@@ -176,4 +176,77 @@
     text-decoration: none;
     color: inherit;
     display: block;
+}
+
+/* - PRÒXIMS PARTITS - */
+
+.partits{
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.proxims-partits h2 {
+    font-family: Oswald;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: #1C3D84;
+    text-align: center;
+}
+
+.partits h2{
+    font-family: Oswald;
+    font-size: 4rem;
+    color: #1C3D84;
+    margin-bottom: 50px;
+}
+
+.llista-partits{
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.partit{
+    text-align: left;
+}
+
+.data-hora{
+    font-family: Roboto Condensed;
+    font-size: 1.8rem;
+    color: #1C3D84;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.equips {
+    font-family: Oswald;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 15px;
+}
+
+.camp {
+    font-family: Roboto Condensed;
+    font-size: 1.1rem;
+    color: #1C3D84;
+}
+
+.equip {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.equip img {
+    width: 40px;
+    height: 40px;
+}
+
+.vs {
+    margin: 0 10px;
+    font-size: 1.4rem;
 }
