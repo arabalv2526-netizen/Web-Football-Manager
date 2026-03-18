@@ -1,0 +1,534 @@
+[
+    {
+        "equipo": "FC Barcelona",
+        "nombre": "Ellie Roebuck",
+        "foto": "https://ligaf.es/media/images/2025/img_players/326612.jpg",
+        "dorsal": 25,
+        "posicion": "Porter",
+        "calidad": 90
+    },
+    {
+        "equipo": "FC Barcelona",
+        "nombre": "Ewa Pajor",
+        "foto": "https://ligaf.es/media/images/2025/img_players/298276.jpg",
+        "dorsal": 17,
+        "posicion": "Davanter",
+        "calidad": 95
+    },
+    {
+        "equipo": "FC Barcelona",
+        "nombre": "Irene Paredes",
+        "foto": "https://ligaf.es/media/images/2025/img_players/144814.jpg",
+        "dorsal": 2,
+        "posicion": "Defensa",
+        "calidad": 85
+    },
+    {
+        "equipo": "FC Barcelona",
+        "nombre": "Caroline Graham",
+        "foto": "https://ligaf.es/media/images/2025/img_players/304437.jpg",
+        "dorsal": 10,
+        "posicion": "Davanter",
+        "calidad": 94
+    },
+    {
+        "equipo": "FC Barcelona",
+        "nombre": "Patricia Guijarro",
+        "foto": "https://ligaf.es/media/images/2025/img_players/302775.jpg",
+        "dorsal": 12,
+        "posicion": "Migcampista",
+        "calidad": 88
+    },
+
+    {
+        "equipo": "Real Madrid CF",
+        "nombre": "Naomie Noëlle Feller",
+        "foto": "https://ligaf.es/media/images/2025/img_players/665699.jpg",
+        "dorsal": 20,
+        "posicion": "Davanter",
+        "calidad": 89
+    },
+    {
+        "equipo": "Real Madrid CF",
+        "nombre": "Melanie Leupolz",
+        "foto": "https://ligaf.es/media/images/2025/img_players/277652.jpg",
+        "dorsal": 24,
+        "posicion": "Migcampista",
+        "calidad": 87
+    },
+    {
+        "equipo": "Real Madrid CF",
+        "nombre": "Olga Carmona García",
+        "foto": "https://ligaf.es/media/images/2025/img_players/422547.jpg",
+        "dorsal": 7,
+        "posicion": "Defensa",
+        "calidad": 88
+    },
+    {
+        "equipo": "Real Madrid CF",
+        "nombre": "Yasmim Assis Ribeiro",
+        "foto": "https://ligaf.es/media/images/2025/img_players/459982.jpg",
+        "dorsal": 12,
+        "posicion": "Defensa",
+        "calidad": 85
+    },
+    {
+        "equipo": "Real Madrid CF",
+        "nombre": "Mylene Chavas",
+        "foto": "https://ligaf.es/media/images/2025/img_players/332953.jpg",
+        "dorsal": 13,
+        "posicion": "Porter",
+        "calidad": 86
+    },
+
+    {
+        "equipo": "Atlético de Madrid",
+        "nombre": "Luany Vitória Da Silva Rosa",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3255217.jpg",
+        "dorsal": 22,
+        "posicion": "Davanter",
+        "calidad": 84
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "nombre": "Gabriela Antonia García Segura",
+        "foto": "https://ligaf.es/media/images/2025/img_players/350425.jpg",
+        "dorsal": 8,
+        "posicion": "Migcampista",
+        "calidad": 85
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "nombre": "Laura Tanarro Suárez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/995805.jpg",
+        "dorsal": 32,
+        "posicion": "Defensa",
+        "calidad": 83
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "nombre": "Sheila Guijarro Gómez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/190731.jpg",
+        "dorsal": 9,
+        "posicion": "Davanter",
+        "calidad": 80
+    },
+    {
+        "equipo": "Atlético de Madrid",
+        "nombre": "Fiamma Benítez Iannuzzi",
+        "foto": "https://ligaf.es/media/images/2025/img_players/916066.jpg",
+        "dorsal": 21,
+        "posicion": "Migcampista",
+        "calidad": 82
+    },
+
+    {
+        "equipo": "Sevilla FC",
+        "nombre": "Millaray Scarleth Cortés Espinoza",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3265957.jpg",
+        "dorsal": 10,
+        "posicion": "Migcampista",
+        "calidad": 86
+    },
+    {
+        "equipo": "Sevilla FC",
+        "nombre": "Paula Partido Durán",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3175183.jpg",
+        "dorsal": 20,
+        "posicion": "Davanter",
+        "calidad": 87
+    },
+    {
+        "equipo": "Sevilla FC",
+        "nombre": "Alicia Redondo González",
+        "foto": "https://ligaf.es/media/images/2025/img_players/422537.jpg",
+        "dorsal": 6,
+        "posicion": "Migcampista",
+        "calidad": 85
+    },
+    {
+        "equipo": "Sevilla FC",
+        "nombre": "Gemma Gili Giner",
+        "foto": "https://ligaf.es/media/images/2025/img_players/144877.jpg",
+        "dorsal": 21,
+        "posicion": "Migcampista",
+        "calidad": 84
+    },
+    {
+        "equipo": "Sevilla FC",
+        "nombre": "Esther Sullastres Ayuso",
+        "foto": "https://ligaf.es/media/images/2025/img_players/144870.jpg",
+        "dorsal": 1,
+        "posicion": "Porter",
+        "calidad": 88
+    },
+
+    {
+        "equipo": "Real Sociedad",
+        "nombre": "Elene Lete Para",
+        "foto": "https://ligaf.es/media/images/2025/img_players/862642.jpg",
+        "dorsal": 1,
+        "posicion": "Porter",
+        "calidad": 83
+    },
+    {
+        "equipo": "Real Sociedad",
+        "nombre": "Claire Lavogez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/278109.jpg",
+        "dorsal": 23,
+        "posicion": "Migcampista",
+        "calidad": 84
+    },
+    {
+        "equipo": "Real Sociedad",
+        "nombre": "Sanni Maija Franssi",
+        "foto": "https://ligaf.es/media/images/2025/img_players/328981.jpg",
+        "dorsal": 9,
+        "posicion": "Davanter",
+        "calidad": 82
+    },
+    {
+        "equipo": "Real Sociedad",
+        "nombre": "Nerea Eizagirre Lasa",
+        "foto": "https://ligaf.es/media/images/2025/img_players/327074.jpg",
+        "dorsal": 10,
+        "posicion": "Migcampista",
+        "calidad": 83
+    },
+    {
+        "equipo": "Real Sociedad",
+        "nombre": "Violeta García Quiles",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3235554.jpg",
+        "dorsal": 15,
+        "posicion": "Davanter",
+        "calidad": 81
+    },
+
+    {
+        "equipo": "Real Betis",
+        "nombre": "Yasmine Zouhir",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3335633.jpg",
+        "dorsal": 18,
+        "posicion": "Davanter",
+        "calidad": 82
+    },
+    {
+        "equipo": "Real Betis",
+        "nombre": "Nuria Ligero Fernández",
+        "foto": "https://ligaf.es/media/images/2025/img_players/145033.jpg",
+        "dorsal": 11,
+        "posicion": "Defensa",
+        "calidad": 83
+    },
+    {
+        "equipo": "Real Betis",
+        "nombre": "Rhiannon Beth Roberts",
+        "foto": "https://ligaf.es/media/images/2025/img_players/298669.jpg",
+        "dorsal": 5,
+        "posicion": "Defensa",
+        "calidad": 85
+    },
+    {
+        "equipo": "Real Betis",
+        "nombre": "Dorine Nina Chuigoue",
+        "foto": "https://ligaf.es/media/images/2025/img_players/420458.jpg",
+        "dorsal": 19,
+        "posicion": "Defensa",
+        "calidad": 84
+    },
+    {
+        "equipo": "Real Betis",
+        "nombre": "Blanca Muñoz García",
+        "foto": "https://ligaf.es/media/images/2025/img_players/670967.jpg",
+        "dorsal": 30,
+        "posicion": "Defensa",
+        "calidad": 82
+    },
+
+    {
+        "equipo": "Athletic Club",
+        "nombre": "Marta Unzué Urdaniz",
+        "foto": "https://ligaf.es/media/images/2025/img_players/144878.jpg",
+        "dorsal": 4,
+        "posicion": "Migcampista",
+        "calidad": 85
+    },
+    {
+        "equipo": "Athletic Club",
+        "nombre": "Itxaso Uriarte Santamaría",
+        "foto": "https://ligaf.es/media/images/2025/img_players/144988.jpg",
+        "dorsal": 8,
+        "posicion": "Migcampista",
+        "calidad": 82
+    },
+    {
+        "equipo": "Athletic Club",
+        "nombre": "Ainize Barea Núñez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/314874.jpg",
+        "dorsal": 22,
+        "posicion": "Davanter",
+        "calidad": 84
+    },
+    {
+        "equipo": "Athletic Club",
+        "nombre": "Irene Oguiza Martínez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/916337.jpg",
+        "dorsal": 6,
+        "posicion": "Migcampista",
+        "calidad": 81
+    },
+    {
+        "equipo": "Athletic Club",
+        "nombre": "Daniela Agote Aguirre",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3397748.jpg",
+        "dorsal": 30,
+        "posicion": "Davanter",
+        "calidad": 83
+    },
+
+    {
+        "equipo": "Valencia CF",
+        "nombre": "Ana Marcos Moral",
+        "foto": "https://ligaf.es/media/images/2025/img_players/378958.jpg",
+        "dorsal": 9,
+        "posicion": "Davanter",
+        "calidad": 75
+    },
+    {
+        "equipo": "Valencia CF",
+        "nombre": "Ascensión Martínez Salinas",
+        "foto": "https://ligaf.es/media/images/2025/img_players/677486.jpg",
+        "dorsal": 20,
+        "posicion": "Davanter",
+        "calidad": 74
+    },
+    {
+        "equipo": "Valencia CF",
+        "nombre": "Marta Carro Nolasco",
+        "foto": "https://ligaf.es/media/images/2025/img_players/148991.jpg",
+        "dorsal": 5,
+        "posicion": "Migcampista",
+        "calidad": 72
+    },
+    {
+        "equipo": "Valencia CF",
+        "nombre": "Kerlly Lizeth Real Carranza",
+        "foto": "https://ligaf.es/media/images/2025/img_players/277844.jpg",
+        "dorsal": 19,
+        "posicion": "Defensa",
+        "calidad": 73
+    },
+    {
+        "equipo": "Valencia CF",
+        "nombre": "Enith Salón Marcuello",
+        "foto": "https://ligaf.es/media/images/2025/img_players/667472.jpg",
+        "dorsal": 1,
+        "posicion": "Porter",
+        "calidad": 80
+    },
+
+    {
+        "equipo": "RCD Espanyol",
+        "nombre": "Isabelle Hoekstra",
+        "foto": "https://ligaf.es/media/images/2025/img_players/1016937.jpg",
+        "dorsal": 28,
+        "posicion": "Davanter",
+        "calidad": 78
+    },
+    {
+        "equipo": "RCD Espanyol",
+        "nombre": "Amanda Mbadi",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3161057.jpg",
+        "dorsal": 15,
+        "posicion": "Migcampista",
+        "calidad": 79
+    },
+    {
+        "equipo": "RCD Espanyol",
+        "nombre": "Ana Belén Hernández Rodríguez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/145005.jpg",
+        "dorsal": 9,
+        "posicion": "Migcampista",
+        "calidad": 78
+    },
+    {
+        "equipo": "RCD Espanyol",
+        "nombre": "Arola Aparicio Gili",
+        "foto": "https://ligaf.es/media/images/2025/img_players/873223.jpg",
+        "dorsal": 23,
+        "posicion": "Davanter",
+        "calidad": 82
+    },
+    {
+        "equipo": "RCD Espanyol",
+        "nombre": "Lucía Vallejo Blázquez",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3235564.jpg",
+        "dorsal": 5,
+        "posicion": "Defensa",
+        "calidad": 81
+    },
+
+    {
+        "equipo": "Deportivo Abanca",
+        "nombre": "Floriangel Mitchell Apóstol Arguelles",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3266007.jpg",
+        "dorsal": 30,
+        "posicion": "Davanter",
+        "calidad": 80
+    },
+    {
+        "equipo": "Deportivo Abanca",
+        "nombre": "Elena Vázquez Brandón",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3323525.jpg",
+        "dorsal": 29,
+        "posicion": "Migcampista",
+        "calidad": 79
+    },
+    {
+        "equipo": "Deportivo Abanca",
+        "nombre": "Paula Gutiérrez Caballero",
+        "foto": "https://ligaf.es/media/images/2025/img_players/749484.jpg",
+        "dorsal": 6,
+        "posicion": "Defensa",
+        "calidad": 83
+    },
+    {
+        "equipo": "Deportivo Abanca",
+        "nombre": "Blessing Augustine Nkor",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3516849.jpg",
+        "dorsal": 11,
+        "posicion": "Migcampista",
+        "calidad": 78
+    },
+    {
+        "equipo": "Deportivo Abanca",
+        "nombre": "Elyse Bennett",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3268503.jpg",
+        "dorsal": 23,
+        "posicion": "Davanter",
+        "calidad": 80
+    },
+
+    {
+        "equipo": "SD Eibar",
+        "nombre": "Carla Andrés Abad",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3235579.jpg",
+        "dorsal": 4,
+        "posicion": "Defensa",
+        "calidad": 80
+    },
+    {
+        "equipo": "SD Eibar",
+        "nombre": "Iraia Yerobi Iruretagoiena",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3592169.jpg",
+        "dorsal": 28,
+        "posicion": "Migcampista",
+        "calidad": 79
+    },
+    {
+        "equipo": "SD Eibar",
+        "nombre": "Amani Kakounan Bernadette",
+        "foto": "https://ligaf.es/media/images/2025/img_players/3334451.jpg",
+        "dorsal": 6,
+        "posicion": "Migcampista",
+        "calidad": 83
+    },
+    {
+    "equipo": "SD Eibar",
+    "nombre": "Laura Camino Fernández",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3334423.jpg",
+    "dorsal": 11,
+    "posicion": "Davanter",
+    "calidad": 78
+},
+{
+    "equipo": "SD Eibar",
+    "nombre": "Malen Uranga Callejo",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3381747.jpg",
+    "dorsal": 27,
+    "posicion": "Davanter",
+    "calidad": 80
+},
+
+{
+    "equipo": "Granada CF",
+    "nombre": "Edna Imade",
+    "foto": "https://ligaf.es/media/images/2025/img_players/871104.jpg",
+    "dorsal": 19,
+    "posicion": "Davanter",
+    "calidad": 80
+},
+{
+    "equipo": "Granada CF",
+    "nombre": "Ángela Mateos García",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3633247.jpg",
+    "dorsal": 27,
+    "posicion": "Migcampista",
+    "calidad": 79
+},
+{
+    "equipo": "Granada CF",
+    "nombre": "Ariadna Mingueza García",
+    "foto": "https://ligaf.es/media/images/2025/img_players/851832.jpg",
+    "dorsal": 6,
+    "posicion": "Migcampista",
+    "calidad": 83
+},
+{
+    "equipo": "Granada CF",
+    "nombre": "Andrea Gómez Oliver",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3334406.jpg",
+    "dorsal": 11,
+    "posicion": "Davanter",
+    "calidad": 78
+},
+{
+    "equipo": "Granada CF",
+    "nombre": "Biljana Bradic",
+    "foto": "https://ligaf.es/media/images/2025/img_players/341737.jpg",
+    "dorsal": 17,
+    "posicion": "Davanter",
+    "calidad": 80
+},
+
+{
+    "equipo": "Levante UD",
+    "nombre": "Alba De La Fuente Lozano",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3523371.jpg",
+    "dorsal": 33,
+    "posicion": "Davanter",
+    "calidad": 80
+},
+{
+    "equipo": "Levante UD",
+    "nombre": "Núria Escoms García",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3312403.jpg",
+    "dorsal": 23,
+    "posicion": "Migcampista",
+    "calidad": 79
+},
+{
+    "equipo": "Levante UD",
+    "nombre": "Teresa Mérida Cañete",
+    "foto": "https://ligaf.es/media/images/2025/img_players/469942.jpg",
+    "dorsal": 2,
+    "posicion": "Defensa",
+    "calidad": 83
+},
+{
+    "equipo": "Levante UD",
+    "nombre": "Ángela Sosa Martín",
+    "foto": "https://ligaf.es/media/images/2025/img_players/145037.jpg",
+    "dorsal": 11,
+    "posicion": "Migcampista",
+    "calidad": 78
+},
+{
+    "equipo": "Levante UD",
+    "nombre": "Ivonne Chacón",
+    "foto": "https://ligaf.es/media/images/2025/img_players/3169560.jpg",
+    "dorsal": 24,
+    "posicion": "Davanter",
+    "calidad": 80
+}
+]

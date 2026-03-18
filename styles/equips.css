@@ -1,0 +1,80 @@
+.equips-lliga {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.equips-lliga h2 {
+    font-family: Oswald;
+    color:#1C3D84;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.caixa-equips {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fletxa-esquerra {
+    background: #F2C94C;
+    color: #1C3D84;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.fletxa-dreta {
+    background: #F2C94C;
+    color: #1C3D84;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.fletxa:hover {
+    background: #1C3D84;
+    color:#F2C94C;
+}
+
+.container-equip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 70%;
+}
+
+.equip-card {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.equip-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+
+.equip-card img:hover {
+    transform: scale(1.1);
+}
+
+.equip-card p {
+    font-family: Roboto Condensed;
+    margin-top: 10px;
+    font-weight: 600;
+    color:#1C3D84;
+    font-size: 1.5rem;
+}
+
