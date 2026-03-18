@@ -264,11 +264,7 @@ article {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-
-
-/* =====================
-CLASSIFICACIÓ + JUGADORS
-   ===================== */
+/* Classificació + jugadores*/
 .classificacio-jugadors {
     display: flex;
     gap: 30px;
