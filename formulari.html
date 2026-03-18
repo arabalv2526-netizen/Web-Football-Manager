@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulari</title>
     <link rel="icon" href="img/logos/isotipo_football_manager.png" type="image/png">
     <link rel="stylesheet" href="/styles/main.css">
-
+    <link rel="stylesheet" href="/styles/formulari.css">
 </head>
+
 <body>
     <header>
         <div class="header-left">
@@ -25,7 +27,96 @@
         </nav>
     </header>
 
-    
+    <article>
+        <div class="intro">
+            <h2 class="title">UNEIX-TE</h2>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Formulari d'Inscripció</h2>
+                    <p>Completa les teves dades per validar la fitxa oficial.</p>
+                </div>
+
+                <div class="card-body">
+                    <div class="tipus-registre">
+                        <p class="label-seccio">TIPUS DE REGISTRE</p>
+                        <div class="toggle">
+                            <button class="toggle-btn actiu" id="btn-jugador">Jugador</button>
+                            <button class="toggle-btn" id="btn-entrenador">Entrenador</button>
+                        </div>
+                    </div>
+
+                    <div class="camp">
+                        <label>Nom Complet</label>
+                        <input type="text" placeholder="Ex: Joan Marc" />
+                    </div>
+
+                    <div class="camp-doble">
+                        <div class="camp">
+                            <label>Alçada (cm)</label>
+                            <div class="input-unitat">
+                                <input type="number" placeholder="180" />
+                                <span>cm</span>
+                            </div>
+                        </div>
+                        <div class="camp">
+                            <label>Pes (kg)</label>
+                            <div class="input-unitat">
+                                <input type="number" placeholder="75" />
+                                <span>kg</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="camp">
+                        <label>Data de Naixement</label>
+                        <input type="date" />
+                    </div>
+
+                    <hr class="separador" />
+
+                    <div class="camp-doble">
+                        <div class="camp">
+                            <label>Equip</label>
+                            <select>
+                                <option>Selecciona un club</option>
+                            </select>
+                        </div>
+                        <div class="camp" id="camp-posicio">
+                            <label>Posició (Només Jugadors)</label>
+                            <select>
+                                <option>Porter</option>
+                                <option>Defensa</option>
+                                <option>Migcampista</option>
+                                <option>Davanter</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="camp">
+                        <label>Foto de Perfil</label>
+                        <div class="upload-area">
+                            <p><img src="/img/recursos/icon-upload.svg" alt="Puja arxiu" srcset=""></p>
+                            <p>Fes clic per pujar o arrossega la imatge</p>
+                            <span>PNG, JPG fins a 5MB (Format carnet recomanat)</span>
+                        </div>
+                    </div>
+
+                    <button class="btn-submit">Finalitzar Registre ➤</button>
+
+                    <p class="avis-rgpd">En enviar aquest formulari, acceptes el tractament de les dades personals
+                        segons el Reglament General de Protecció de Dades (RGPD).</p>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+    </article>
+
+
     <footer>
         <div class="footer-content">
             <div class="footer-social">
@@ -51,12 +142,15 @@
             <div class="footer-legal">
                 <p>© 2026 Politècnics Football Manager.<br>Tots el drets reservats.</p>
                 <div class="footer-links">
-                    <a href="data/informe_accesibilitat.pdf" download class="download" title="Descarregar l'Informe d'Accesibilitat en PDF">Accesibilitat</a>
+                    <a href="data/informe_accesibilitat.pdf" download class="download"
+                        title="Descarregar l'Informe d'Accesibilitat en PDF">Accesibilitat</a>
                     <a href="#">COOKIES</a>
                     <a href="#">LEGAL</a>
                 </div>
             </div>
     </footer>
     <script src="script.js"></script>
+    <script src="/scripts/formulari.js"></script>
 </body>
+
 </html>
