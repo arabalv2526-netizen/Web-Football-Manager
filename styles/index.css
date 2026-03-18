@@ -180,16 +180,22 @@
 
 /* - PRÒXIMS PARTITS - */
 
-.partits{
-    padding: 60px 40px;
+.partit {
+    background: #1c3d84;
+    padding: 30px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .proxims-partits h2 {
     font-family: Oswald;
     font-size: 3rem;
-    margin-bottom: 40px;
     margin-top: 40px;
+    margin-bottom: 20px;
     color: #1C3D84;
     text-align: center;
 }
@@ -197,56 +203,225 @@
 .partits h2{
     font-family: Oswald;
     font-size: 4rem;
-    color: #1C3D84;
+    color: white;
     margin-bottom: 50px;
 }
 
 .llista-partits{
-    display: flex;
-    flex-direction: column;
-    gap:45px;
-    max-width: 700px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 100%;
+    align-items: center;
+    padding: 30px 40px;
+    margin-bottom: 40px;
 }
 
 .partit{
-    text-align: left;
+    text-align: center;
 }
 
 .data-hora{
     font-family: Roboto Condensed;
-    font-size: 1.8rem;
-    color: #1C3D84;
+    font-size: 1rem;
+    color: white;
     font-weight: 700;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .equips {
     font-family: Oswald;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    gap: 15px;
+    gap: 5px;
+    color: white;
 }
 
 .camp {
     font-family: Roboto Condensed;
     font-size: 1.1rem;
-    color: #1C3D84;
+    color: white;
 }
 
 .equip {
     display: flex;
     align-items: center;
     gap: 10px;
+    justify-content: center;
 }
 
 .equip img {
-    width: 40px;
-    height: 40px;
+    width: 100px;
+    height: 100px;
 }
 
 .vs {
     margin: 0 10px;
-    font-size: 1.4rem;
+    font-size: 1rem;
+    color: white;
+}
+
+/* - JUGADES DESTACADES - */
+
+.jugades-destacades {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.jugades-destacades h2 {
+    font-family: Oswald;
+    font-size: 3rem;
+    margin-bottom: 60px;
+    color: #1C3D84;
+    text-align: center;
+}
+
+.caixa-videos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.video {
+    background: #1C3D84;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: transform .2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    height: 500px;
+}
+
+.video:hover {
+    transform: scale(1.10);
+}
+
+.jugada-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    background: #000;
+}
+
+.boto-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.8rem;
+    color: #F2C94C;
+    opacity: 0.9;
+    text-shadow: 0 0 10px rgba(0,0,0,5);
+}
+
+.video h3 {
+    font-family: Oswald;
+    margin: 12px 0 4px;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.video p {
+    font-family: Roboto Condensed;
+    margin-bottom: 12px;
+    color: white;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: none;    
+}
+
+.video a {
+    text-decoration: none;
+}
+
+/* - VOLS JUGAR AMB NOSALTRES? - */
+
+.vols-jugar {
+    background-color: #1E7F3B;
+    width: 100%;
+    height: 400px;
+}
+
+.vols-jugar-content {
+    justify-content: center;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.vols-jugar-content h2 {
+    font-family: Oswald;
+    font-size: 4.5rem;
+    color:white;
+    text-shadow: 0 8px 10px rgba(0,0,0,0.3);
+    margin-bottom: 30px;
+}
+
+.vols-jugar-content p {
+    font-family: Roboto Condensed;
+    font-size: 1.5rem;
+    color:#F2C94C;
+    margin-bottom: 40px;
+    text-shadow: 0 0px 10px rgba(0, 0, 0, 0.4)
+}
+
+.botons-inscripcio {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.boto {
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: transform .2s ease, opacity .2s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    margin-top: 10px;
+}
+
+.boto.equip {
+    font-family: Roboto Condensed;
+    background: #F2C94C;
+    color: #1C3D84;
+    font-size: 1.3rem;    
+}
+
+.boto.info-jug {
+    font-family: Roboto Condensed;
+    background: #1C3D84;
+    font-size: 1.3rem;
+}
+
+.boto:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.boto.equip:hover {
+    background: #1C3D84;
+    color: white;
+}
+
+.boto.info-jug:hover {
+    background: white;
+    color: #1C3D84;
 }
