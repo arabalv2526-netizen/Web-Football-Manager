@@ -6,7 +6,7 @@ const rightBtn = document.querySelector(".fletxa-dreta");
 let pagina = 0;
 const perPagina = 4;
 
-fetch("/data/jugadores.json")
+fetch("data/jugadores.json")
     .then(res => res.json())
     .then(data => {
         equips = data;
@@ -14,19 +14,29 @@ fetch("/data/jugadores.json")
     });
 
 function render() {
-    container.innerHTML = "";
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
 
     const start = pagina * perPagina;
     const end = start + perPagina;
     const visibles = equips.slice(start, end);
 
     visibles.forEach(e => {
-        container.innerHTML += `
-            <a href="equip.html?team=${encodeURIComponent(e.equip)}" class="equip-card">
-                <img src="${e.escut}">
-                <p>${e.equip}</p>
-            </a>
-        `;
+        const a = document.createElement("a");
+        a.href = `veure_equip.html?team=${encodeURIComponent(e.equip)}`;
+        a.className = "equip-card";
+
+        const img = document.createElement("img");
+        img.src = e.escut;
+
+        const p = document.createElement("p");
+        p.textContent = e.equip;
+
+        a.appendChild(img);
+        a.appendChild(p);
+
+        container.appendChild(a);
     });
 }
 
@@ -44,4 +54,3 @@ leftBtn.onclick = () => {
         render();
     }
 };
-
