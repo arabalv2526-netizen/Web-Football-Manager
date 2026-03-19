@@ -1,3 +1,5 @@
+'use strict';
+
 //Jugadors o entrenadors
 const btnJugador = document.getElementById('btn-jugador');
 const btnEntrenador = document.getElementById('btn-entrenador');
@@ -52,3 +54,10 @@ equips.forEach(nom => {
     selectEquip.appendChild(option);
 });
 
+// Carrega d'imatge
+const uploadArea = document.getElementById("upload-area");
+const inputFile = document.getElementById("input-file");
+
+uploadArea.addEventListener("click", () => {
+    inputFile.click();
+});
