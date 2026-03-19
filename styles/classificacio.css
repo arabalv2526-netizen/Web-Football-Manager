@@ -277,9 +277,11 @@ article {
 .top-jugadors {
     background: white;
     border-radius: 12px;
-    padding: 24px;
+    padding: 24px 24px 0 24px;
     flex: 1;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
 }
 
 /* Capçalera columnes */
@@ -304,6 +306,14 @@ article {
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid #f0f0f0;
+}
+
+.gol-fila:first-of-type {
+    margin-top: 20px; /* era 10px */
+}
+
+.gol-fila:last-of-type {
+    margin-bottom: 20px;
 }
 
 .clas-pos {
@@ -357,15 +367,15 @@ article {
     display: grid;
     grid-template-columns: 40px 50px 1fr 50px;
     align-items: center;
-    padding: 10px 0;
+    padding: 14px 0;
     border-bottom: 1px solid #f0f0f0;
     gap: 10px;
     margin-top: 10px;
 }
 
 .gol-fila img {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -379,7 +389,7 @@ article {
 .gol-info {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 5px;
 }
 
 .gol-nom {
@@ -417,15 +427,24 @@ article {
 .veure-mes {
     display: block;
     text-align: center;
-    margin-top: 16px;
-    color: #1C3D84;
+    margin-top: auto;
+    color: white;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 700;
     font-size: 0.85rem;
-    letter-spacing: 1px;
+    letter-spacing: 1.3px;
     text-decoration: none;
+    background-color: #1C3D84;
+    padding: 18px 0;
+    margin-left: -24px;
+    margin-right: -24px;
+    border-radius: 0 0 12px 12px;
+    transition: border-bottom-color 0.6s ease, color 0.6s ease;
 }
 
 .veure-mes:hover {
     text-decoration: underline;
+    color: #F2C94C;
+    border-bottom-color: #F2C94C;
 }
+
