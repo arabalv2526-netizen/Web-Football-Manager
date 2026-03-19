@@ -34,9 +34,7 @@ Promise.all([
 .catch(err => console.error('Error carregant dades:', err));
 
 
-// =====================
-// PODI
-// =====================
+// Podio dels 3 primers equips
 function renderPodio(equips) {
     const container = document.querySelector('.podio-equips');
 
@@ -58,10 +56,7 @@ function renderPodio(equips) {
     });
 }
 
-
-// =====================
-// PARTITS
-// =====================
+// Partits destacats i restants
 function renderPartits(partits) {
     const container = document.getElementById('partits-container');
 
@@ -152,10 +147,7 @@ function renderPartits(partits) {
     });
 }
 
-
-// =====================
-// CLASSIFICACIÓ
-// =====================
+// Classificació general
 function renderClassificacio(equips) {
     const container = document.querySelector('.classificacio');
 
@@ -212,13 +204,10 @@ function renderClassificacio(equips) {
     });
 }
 
-
-// =====================
-// TOP JUGADORES
-// =====================
+// Top jugadores golejadores
 function renderGolejadors(equips) {
     const container = document.querySelector('.top-jugadors');
-    const posLabels = ['1R', '2N', '3R', '4T', '5È'];
+    const posLabels = ['1ª', '2ª', '3ª', '4ª', '5ª'];
 
     const top5 = equips
         .flatMap(equip => equip.jugadors.map(j => ({
@@ -230,7 +219,7 @@ function renderGolejadors(equips) {
 
     const titol = document.createElement('h2');
     titol.classList.add('title');
-    titol.textContent = 'TOP JUGADORES';
+    titol.textContent = 'TOP 5 JUGADORES';
 
     const subtitol = document.createElement('p');
     subtitol.classList.add('sub-title');
@@ -282,7 +271,7 @@ function renderGolejadors(equips) {
 
     const boto = document.createElement('a');
     boto.classList.add('veure-mes');
-    boto.textContent = 'VEURE TOTA LA LLISTA';
+    boto.textContent = 'VEURE TOTES LES JUGADORES';
     boto.href = 'equips.html';
     container.appendChild(boto);
 }
