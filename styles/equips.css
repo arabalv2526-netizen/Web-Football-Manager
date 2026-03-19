@@ -96,7 +96,6 @@
     justify-content: center;
     position: relative;
     padding: 20px 40px;
-
 }
 
 .titol-jugadores h2 {
@@ -179,7 +178,7 @@
 .jugadora-card {
     width: 250px;
     height: 400px;
-    background: white;
+    background: #e0dad5;
     color: #1C3D84;
     padding: 14px;
     border-radius: 14px;
@@ -189,7 +188,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 0.5s ease, opacity 0.5s ease;
-    
 }
 
 .jugadora-card h3 {
@@ -224,20 +222,21 @@
     border: 3px solid #F2C94C;
     z-index: 3;
     opacity: 1;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.30);
 }
 
 .jugadora-card.left {
-    border: 3px solid #1E7F3B;
     transform: translate(calc(-50% - 180px), -50%) scale(0.9);
     filter:blur(1px);
     z-index: 2;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 .jugadora-card.right {
     transform: translate(calc(-50% + 180px), -50%) scale(0.9);
     filter:blur(1px);
     z-index: 2;
-    border: 3px solid #1E7F3B;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
 /* -- ENTRENADORS --*/
