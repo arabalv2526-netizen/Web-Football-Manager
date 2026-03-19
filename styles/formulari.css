@@ -92,7 +92,7 @@ article {
     color: #1C3D84;
     cursor: pointer;
     border-radius: 8px;
-    transition: background 0.2s, color 0.2s;
+    transition: background-color 0.2s, color 0.2s;
 }
 
 .toggle-btn.actiu {
@@ -168,6 +168,10 @@ article {
 }
 
 /* Zona d'upload */
+#input-file {
+    display: none;
+}
+
 .upload-area {
     border: 2px dashed #ddd;
     border-radius: 8px;
@@ -212,7 +216,7 @@ article {
     letter-spacing: 1px;
     cursor: pointer;
     width: 100%;
-    transition: background 0.2s;
+    transition: background-color 0.2s;
     box-shadow: #333;
 }
 
