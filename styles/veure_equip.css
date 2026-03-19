@@ -162,7 +162,7 @@ body {
     text-align: center;
     backdrop-filter: blur(6px);
     transition: transform 0.2s ease;
-    height: 350px;
+    height: 400px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -189,7 +189,8 @@ body {
     font-family: Roboto Condensed;
     color:#1E7F3B;
     font-size: 1rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .jugador-card p {
@@ -197,4 +198,99 @@ body {
     color:#1C3D84;
     margin: 3px 0;
     font-size: 1rem;
+}
+
+
+/* -- VEURE JUGADORA -- */
+
+.capsalera-jugadora {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    background-color: #1C3D84;
+    padding: 20px 90px 100px;
+    gap: 30px;
+    height: 200px;
+}
+
+#info-jugadora {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.capsalera-jugadora .escut-equip {
+    width: auto;
+    height: 160px;
+}
+
+.capsalera-jugadora .text-equip h1 {
+    font-family: Oswald;
+    color: white;
+    font-size: 2.8rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.jugadora-detalle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 60px;
+    padding: 20px 0;
+}
+
+/* FOTO: entra desde la izquierda */
+.jugadora-detalle img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.22);
+    opacity: 0;
+    animation: fotoSlideLeft 0.7s ease forwards;
+    margin-bottom: 25px;
+}
+
+/* TEXTO: entra desde la derecha */
+.jugadora-detalle h2,
+.jugadora-detalle p {
+    opacity: 0;
+    animation: textSlideRight 0.7s ease forwards;
+}
+
+.jugadora-detalle h2 {
+    font-family: Oswald;
+    font-size: 3rem;
+    color: #1C3D84;
+    margin-bottom: 20px;
+    animation-delay: 0.1s;
+}
+
+.jugadora-detalle p {
+    font-family: Roboto Condensed;
+    font-size: 1.3rem;
+    color: #1C3D84;
+    margin: 3px 0;
+    animation-delay: 0.15s;
+    font-weight: 600;
+}
+
+#posicio {
+    color: #1E7F3B;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+/* Animaciones laterales */
+@keyframes fotoSlideLeft {
+    from { opacity: 0; transform: translateX(-40px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes textSlideRight {
+    from { opacity: 0; transform: translateX(40px); }
+    to   { opacity: 1; transform: translateX(0); }
 }

@@ -107,3 +107,60 @@ fetch("data/jugadores.json")
         p.textContent = "Error carregant les dades.";
         infoEquip.appendChild(p);
     });
+
+
+// ===============================
+//   MOSTRAR JUGADORA INDIVIDUAL
+// ===============================
+
+const paramsJug = new URLSearchParams(window.location.search);
+const nombreJugadora = paramsJug.get("nombre");
+
+// Solo ejecutar si estamos en la página de jugadora
+if (nombreJugadora) {
+
+    const infoJugadoraHeader = document.getElementById("info-jugadora");
+
+    // 1. Cargar datos de la jugadora
+    fetch("data/info_jugadoras.json")
+        .then(res => res.json())
+        .then(data => {
+
+            const jugadora = data.find(j => j.nombre === nombreJugadora);
+            if (!jugadora) return;
+
+            // Rellenar ficha de jugadora
+            document.getElementById("nom").textContent = jugadora.nombre;
+            document.getElementById("foto").src = jugadora.foto;
+            document.getElementById("posicio").textContent = "Posició: " + jugadora.posicion;
+            document.getElementById("dorsal").textContent = "Dorsal: " + jugadora.dorsal;
+            document.getElementById("qualitat").textContent = "Qualitat: " + jugadora.calidad;
+
+            // 2. Cargar escudo del equipo de la jugadora
+            fetch("data/jugadores.json")
+                .then(res => res.json())
+                .then(equipos => {
+
+                    const equip = equipos.find(e => e.equip === jugadora.equipo);
+                    if (!equip) return;
+
+                    // Crear escudo + nombre del equipo
+                    const img = document.createElement("img");
+                    img.src = equip.escut;
+                    img.alt = "Escut " + equip.equip;
+                    img.classList.add("escut-equip");
+
+                    const textDiv = document.createElement("div");
+                    textDiv.classList.add("text-equip");
+
+                    const h1 = document.createElement("h1");
+                    h1.textContent = equip.equip;
+
+                    textDiv.appendChild(h1);
+
+                    // Insertar en la cabecera de jugadora
+                    infoJugadoraHeader.appendChild(img);
+                    infoJugadoraHeader.appendChild(textDiv);
+                });
+        });
+}
