@@ -56,6 +56,13 @@ article {
 }
 
 /* Cos del formulari */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .card-body {
     padding: 24px;
     display: flex;
@@ -122,7 +129,7 @@ article {
     border-radius: 6px;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.95rem;
-    color: #333;
+    color: #1b1b1b;
     outline: none;
     width: 100%;
 }
@@ -155,7 +162,7 @@ article {
 .input-unitat span {
     padding: 10px 12px;
     background: #f5f5f5;
-    color: #888;
+    color: #1b1b1b;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.85rem;
 }
@@ -200,7 +207,7 @@ article {
 .upload-area span {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.75rem;
-    color: #888;
+    color: #444;
 }
 
 /* Botó submit */
@@ -226,8 +233,8 @@ article {
 
 /* Avís RGPD */
 .avis-rgpd {
-    font-size: 0.65rem;
-    color: #888;
+    font-size: 0.75rem;
+    color: #444;
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
     line-height: 1.4;

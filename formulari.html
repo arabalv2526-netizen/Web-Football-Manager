@@ -43,66 +43,68 @@
                     <div class="tipus-registre">
                         <p class="label-seccio">TIPUS DE REGISTRE</p>
                         <div class="toggle">
-                            <button class="toggle-btn actiu" id="btn-jugador">Jugador</button>
-                            <button class="toggle-btn" id="btn-entrenador">Entrenador</button>
+                            <button class="toggle-btn actiu" id="btn-jugador" aria-pressed="true">Jugador</button>
+                            <button class="toggle-btn" id="btn-entrenador" aria-pressed="false">Entrenador</button>
                         </div>
                     </div>
 
-                    <div class="camp">
-                        <label>Nom Complet</label>
-                        <input type="text" placeholder="Ex: Joan Marc" />
-                    </div>
-
-                    <div class="camp-doble">
+                    <form id="formulari-inscripcio">
                         <div class="camp">
-                            <label>Alçada (cm)</label>
-                            <div class="input-unitat">
-                                <input type="number" placeholder="180" />
-                                <span>cm</span>
+                            <label for="nom-complet">Nom Complet</label>
+                            <input type="text" id="nom-complet" placeholder="Ex: Joan Marc" autocomplete="name" required />
+                        </div>
+
+                        <div class="camp-doble">
+                            <div class="camp">
+                                <label for="alcada">Alçada (cm)</label>
+                                <div class="input-unitat">
+                                    <input type="number" id="alcada" placeholder="180" autocomplete="height" required/>
+                                    <span>cm</span>
+                                </div>
+                            </div>
+                            <div class="camp">
+                                <label for="pes">Pes (kg)</label>
+                                <div class="input-unitat">
+                                    <input type="number" id="pes" placeholder="75" autocomplete="weight" required />
+                                    <span>kg</span>
+                                </div>
                             </div>
                         </div>
+
                         <div class="camp">
-                            <label>Pes (kg)</label>
-                            <div class="input-unitat">
-                                <input type="number" placeholder="75" />
-                                <span>kg</span>
+                            <label for="data-naixement">Data de Naixement</label>
+                            <input type="date" id="data-naixement" autocomplete="bday" required/>
+                        </div>
+
+                        <hr class="separador" aria-hidden="true"/>
+
+                        <div class="camp-doble">
+                            <div class="camp">
+                                <label for="select-equip">Equip</label>
+                                <select id="select-equip" required>
+                                    <option value="">Selecciona un club</option>
+                                </select>
+                            </div>
+                            <div class="camp" id="camp-posicio">
+                                <label for="select-posicio">Posició (Només Jugadors)</label>
+                                <select id="select-posicio" required>
+                                    <option value="">Selecciona una posició</option>
+                                </select>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="camp">
-                        <label>Data de Naixement</label>
-                        <input type="date" />
-                    </div>
-
-                    <hr class="separador" />
-
-                    <div class="camp-doble">
                         <div class="camp">
-                            <label>Equip</label>
-                            <select id="select-equip">
-                                <option value="">Selecciona un club</option>
-                            </select>
+                            <label for="input-file">Foto de Perfil</label>
+                            <div class="upload-area" id="upload-area" tabindex="0" role="button" aria-label="Importar imatge" title="Importa una imatge">
+                                <p><img src="/img/recursos/icon-upload.svg" alt="Logo per pujar arxiu"></p>
+                                <p>Fes clic per pujar o arrossega la imatge</p>
+                                <input type="file" id="input-file" accept="image/png, image/jpeg" required/>
+                                <span>PNG, JPG fins a 5MB (Format carnet recomanat)</span>
+                            </div>
                         </div>
-                        <div class="camp" id="camp-posicio">
-                            <label>Posició (Només Jugadors)</label>
-                            <select id="select-posicio">
-                                <option value="">Selecciona una posició</option>
-                            </select>
-                        </div>
-                    </div>
 
-                    <div class="camp">
-                        <label>Foto de Perfil</label>
-                        <div class="upload-area" id="upload-area">
-                            <p><img src="/img/recursos/icon-upload.svg" alt="Puja arxiu"></p>
-                            <p>Fes clic per pujar o arrossega la imatge</p>
-                            <input type="file" id="input-file" accept="image/png, image/jpeg" />
-                            <span>PNG, JPG fins a 5MB (Format carnet recomanat)</span>
-                        </div>
-                    </div>
-
-                    <button class="btn-submit">Finalitzar Registre ➤</button>
+                        <button type="submit" class="btn-submit">Finalitzar Registre ➤</button>
+                    </form>
 
                     <p class="avis-rgpd">En enviar aquest formulari, acceptes el tractament de les dades personals
                         segons el Reglament General de Protecció de Dades (RGPD).</p>
@@ -138,7 +140,8 @@
             <div class="footer-legal">
                 <p>© 2026 Politècnics Football Manager.<br>Tots el drets reservats.</p>
                 <div class="footer-links">
-                    <a href="data/informe_accesibilitat.pdf" download class="download" title="Descarregar l'Informe d'Accesibilitat en PDF">Accesibilitat</a>
+                    <a href="data/informe_accesibilitat.pdf" download class="download"
+                        title="Descarregar l'Informe d'Accesibilitat en PDF">Accesibilitat</a>
                     <a href="#">COOKIES</a>
                     <a href="#">LEGAL</a>
                 </div>
