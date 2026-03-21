@@ -1,45 +1,44 @@
 const escuts = {
-    'FC Barcelona': '../img/escuts/barcelona.png',
-    'Real Madrid CF': '../img/escuts/real-madrid.png',
-    'Atlético de Madrid': '../img/escuts/atletico-madrid.png',
-    'Sevilla FC': '../img/escuts/sevilla.png',
-    'Real Sociedad': '../img/escuts/real-sociedad.png',
-    'Real Betis': '../img/escuts/betis.png',
-    'Athletic Club': '../img/escuts/athletic.png',
-    'Valencia CF': '../img/escuts/valencia.png',
-    'RCD Espanyol': '../img/escuts/espanyol.png',
-    'Deportivo Abanca': '../img/escuts/deportivo.png',
-    'SD Eibar': '../img/escuts/eibar.png',
-    'Granada CF': '../img/escuts/granada.png',
-    'Levante UD': '../img/escuts/levante.png',
-    'Las Palmas': '../img/escuts/las-palmas.png',
-    'Real Valladolid': '../img/escuts/valladolid.png',
-    'Cádiz CF': '../img/escuts/cadiz.png',
-    'Rayo Vallecano': '../img/escuts/rayo-vallecano.png',
-    'Leganés': '../img/escuts/leganes.png',
-    'Alavés': '../img/escuts/alaves.png',
-    'Celta Vigo': '../img/escuts/celta-vigo.png'
+    'FC Barcelona': 'img/escuts/barcelona.png',
+    'Real Madrid CF': 'img/escuts/real-madrid.png',
+    'Atlético de Madrid': 'img/escuts/atletico-madrid.png',
+    'Sevilla FC': 'img/escuts/sevilla.png',
+    'Real Sociedad': 'img/escuts/real-sociedad.png',
+    'Real Betis': 'img/escuts/betis.png',
+    'Athletic Club': 'img/escuts/athletic.png',
+    'Valencia CF': 'img/escuts/valencia.png',
+    'RCD Espanyol': 'img/escuts/espanyol.png',
+    'Las Palmas': 'img/escuts/las-palmas.png',
+    'Real Valladolid': 'img/escuts/valladolid.png',
+    'Rayo Vallecano': 'img/escuts/rayo.png',
+    'Leganés': 'img/escuts/leganes.png',
+    'Alavés': 'img/escuts/alaves.png',
+    'Celta Vigo': 'img/escuts/celta.png',
+    'Getafe CF': 'img/escuts/getafe.png',
+    'Girona FC': 'img/escuts/girona.png',
+    'RCD Mallorca': 'img/escuts/mallorca.png',
+    'CA Osasuna': 'img/escuts/osasuna.png',
+    'Villarreal CF': 'img/escuts/villarreal.png',
 };
-
 
 Promise.all([
     fetch('data/FM_partits_masc.json').then(res => res.json()),
     fetch('data/jugadores.json').then(res => res.json())
 ])
-.then(([partits, equips]) => {
-    const equipsOrdenats = [...equips]
-        .map(equip => ({
-            ...equip,
-            mitja: Math.round(equip.jugadors.reduce((acc, j) => acc + j.qualitat, 0) / equip.jugadors.length)
-        }))
-        .sort((a, b) => b.mitja - a.mitja);
+    .then(([partits, equips]) => {
+        const equipsOrdenats = [...equips]
+            .map(equip => ({
+                ...equip,
+                mitja: Math.round(equip.jugadors.reduce((acc, j) => acc + j.qualitat, 0) / equip.jugadors.length)
+            }))
+            .sort((a, b) => b.mitja - a.mitja);
 
-    renderPartits(partits);
-    renderClassificacio(equipsOrdenats);
-    renderGolejadors(equips);
-    renderPodio(equipsOrdenats);
-})
-.catch(err => console.error('Error carregant dades:', err));
+        renderPartits(partits);
+        renderClassificacio(equipsOrdenats);
+        renderGolejadors(equips);
+        renderPodio(equipsOrdenats);
+    })
+    .catch(err => console.error('Error carregant dades:', err));
 
 
 // Podio dels 3 primers equips
