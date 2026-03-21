@@ -2,11 +2,11 @@
     {
         "equip_local": {
             "nom": "Girona FC",
-            "escut": "Web-Football-Manager/img/escuts/girona.png"
+            "escut": "img/escuts/girona.png"
         },
         "equip_visitant": {
             "nom": "Real Betis",
-            "escut": "Web-Football-Manager/img/escuts/betis.png"
+            "escut": "img/escuts/betis.png"
         },
         "data": "2025-06-10T18:00:00",
         "camp": "ESTADI MUNICIPAL DE MONTILIVI"
@@ -14,11 +14,11 @@
     {
         "equip_local": {
             "nom": "RC Celta de Vigo",
-            "escut": "Web-Football-Manager/img/escuts/celta.png"
+            "escut": "img/escuts/celta.png"
         },
         "equip_visitant": {
             "nom": "Atlético de Madrid",
-            "escut": "Web-Football-Manager/img/escuts/atletico-madrid.png"
+            "escut": "img/escuts/atletico-madrid.png"
         },
         "data": "2025-06-11T20:45:00",
         "camp": "ABANCA-BALAÍDOS"
@@ -26,11 +26,11 @@
     {
         "equip_local": {
             "nom": "RCD Mallorca",
-            "escut": "Web-Football-Manager/img/escuts/mallorca.png"
+            "escut": "img/escuts/mallorca.png"
         },
         "equip_visitant": {
             "nom": "UD Las Palmas",
-            "escut": "Web-Football-Manager/img/escuts/las-palmas.png"
+            "escut": "img/escuts/las-palmas.png"
         },
         "data": "2025-06-12T17:30:00",
         "camp": "ESTADI DE SON MOIX"
