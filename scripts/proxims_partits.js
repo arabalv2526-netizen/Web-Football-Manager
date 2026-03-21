@@ -1,11 +1,11 @@
 fetch('data/partits_proxims.json')
     .then(res => res.json())
-    .then(partits =>{
+    .then(partits => {
         const container = document.getElementById("llista-partits");
 
-        partits.sort((a,b) => new Date(a.data) - new Date(b.data));
+        partits.sort((a, b) => new Date(a.data) - new Date(b.data));
 
-        partits.forEach(partit =>{
+        partits.forEach(partit => {
             const div = document.createElement("div");
             div.classList.add("partit");
 
@@ -13,7 +13,7 @@ fetch('data/partits_proxims.json')
             dataHora.classList.add("data-hora");
 
             const data = new Date(partit.data);
-            const options = {weekday: "long", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit"};
+            const options = { weekday: "long", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" };
             dataHora.textContent = data.toLocaleString("ca-ES", options).toUpperCase();
 
             const equips = document.createElement("div");
@@ -41,7 +41,7 @@ fetch('data/partits_proxims.json')
 
             const escutVisitant = document.createElement("img");
             escutVisitant.src = partit.equip_visitant.escut;
-            escutVisitant.alt =  partit.equip_visitant.nom;
+            escutVisitant.alt = partit.equip_visitant.nom;
 
             const nomVisitant = document.createElement("span");
             nomVisitant.textContent = partit.equip_visitant.nom;
@@ -62,5 +62,5 @@ fetch('data/partits_proxims.json')
             div.appendChild(camp);
 
             container.appendChild(div);
-        })
-    })
+        });
+    });
