@@ -1,22 +1,22 @@
 const escuts = {
-    'FC Barcelona': '/img/escuts/barcelona.png',
-    'Real Madrid CF': '/img/escuts/real-madrid.png',
-    'Atlético de Madrid': '/img/escuts/atletico-madrid.png',
-    'Sevilla FC': '/img/escuts/sevilla.png',
-    'Real Sociedad': '/img/escuts/real-sociedad.png',
-    'Real Betis': '/img/escuts/betis.png',
-    'Athletic Club': '/img/escuts/athletic.png',
-    'Valencia CF': '/img/escuts/valencia.png',
-    'RCD Espanyol': '/img/escuts/espanyol.png',
-    'Deportivo Abanca': '/img/escuts/deportivo.png',
-    'SD Eibar': '/img/escuts/eibar.png',
-    'Granada CF': '/img/escuts/granada.png',
-    'Levante UD': '/img/escuts/levante.png'
+    'FC Barcelona': 'img/escuts/barcelona.png',
+    'Real Madrid CF': 'img/escuts/real-madrid.png',
+    'Atlético de Madrid': 'img/escuts/atletico-madrid.png',
+    'Sevilla FC': 'img/escuts/sevilla.png',
+    'Real Sociedad': 'img/escuts/real-sociedad.png',
+    'Real Betis': 'img/escuts/betis.png',
+    'Athletic Club': 'img/escuts/athletic.png',
+    'Valencia CF': 'img/escuts/valencia.png',
+    'RCD Espanyol': 'img/escuts/espanyol.png',
+    'Deportivo Abanca': 'img/escuts/deportivo.png',
+    'SD Eibar': 'img/escuts/eibar.png',
+    'Granada CF': 'img/escuts/granada.png',
+    'Levante UD': 'img/escuts/levante.png'
 };
 
 Promise.all([
-    fetch('/data/FM_partits_masc.json').then(res => res.json()),
-    fetch('/data/jugadores.json').then(res => res.json())
+    fetch('data/FM_partits_masc.json').then(res => res.json()),
+    fetch('data/jugadores.json').then(res => res.json())
 ])
 .then(([partits, equips]) => {
     const equipsOrdenats = [...equips]
