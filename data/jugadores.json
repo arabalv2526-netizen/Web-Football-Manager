@@ -1,7 +1,7 @@
 [
     {
         "equip": "FC Barcelona",
-        "escut": "/img/escuts/barcelona.png",
+        "escut": "img/escuts/barcelona.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/326612.jpg",
@@ -47,7 +47,7 @@
     },
     {
         "equip": "Real Madrid CF",
-        "escut": "/img/escuts/real-madrid.png",
+        "escut": "img/escuts/real-madrid.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/665699.jpg",
@@ -93,7 +93,7 @@
     },
     {
         "equip": "Atlético de Madrid",
-        "escut": "/img/escuts/atletico-madrid.png",
+        "escut": "img/escuts/atletico-madrid.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3255217.jpg",
@@ -139,7 +139,7 @@
     },
     {
         "equip": "Sevilla FC",
-        "escut": "/img/escuts/sevilla.png",
+        "escut": "img/escuts/sevilla.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3265957.jpg",
@@ -185,7 +185,7 @@
     },
     {
         "equip": "Real Sociedad",
-        "escut": "/img/escuts/real-sociedad.png",
+        "escut": "img/escuts/real-sociedad.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/862642.jpg",
@@ -231,7 +231,7 @@
     },
     {
         "equip": "Real Betis",
-        "escut": "/img/escuts/betis.png",
+        "escut": "img/escuts/betis.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3335633.jpg",
@@ -277,7 +277,7 @@
     },
     {
         "equip": "Athletic Club",
-        "escut": "/img/escuts/athletic.png",
+        "escut": "img/escuts/athletic.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/144878.jpg",
@@ -323,7 +323,7 @@
     },
     {
         "equip": "Valencia CF",
-        "escut": "/img/escuts/valencia.png",
+        "escut": "img/escuts/valencia.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/378958.jpg",
@@ -369,7 +369,7 @@
     },
     {
         "equip": "RCD Espanyol",
-        "escut": "/img/escuts/espanyol.png",
+        "escut": "img/escuts/espanyol.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/1016937.jpg",
@@ -415,7 +415,7 @@
     },
     {
         "equip": "Las Palmas",
-        "escut": "/img/escuts/las-palmas.png",
+        "escut": "img/escuts/las-palmas.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3266007.jpg",
@@ -461,7 +461,7 @@
     },
     {
         "equip": "Celta",
-        "escut": "/img/escuts/celta.png",
+        "escut": "img/escuts/celta.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3235579.jpg",
@@ -507,7 +507,7 @@
     },
     {
         "equip": "Getafe",
-        "escut": "/img/escuts/getafe.png",
+        "escut": "img/escuts/getafe.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/871104.jpg",
@@ -553,7 +553,7 @@
     },
     {
         "equip": "Leganés",
-        "escut": "/img/escuts/leganes.png",
+        "escut": "img/escuts/leganes.png",
         "jugadors": [
             {
                 "foto": "https://ligaf.es/media/images/2025/img_players/3523371.jpg",

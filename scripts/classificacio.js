@@ -11,7 +11,14 @@ const escuts = {
     'Deportivo Abanca': 'img/escuts/deportivo.png',
     'SD Eibar': 'img/escuts/eibar.png',
     'Granada CF': 'img/escuts/granada.png',
-    'Levante UD': 'img/escuts/levante.png'
+    'Levante UD': 'img/escuts/levante.png',
+    'Las Palmas': 'img/escuts/las-palmas.png',
+    'Real Valladolid': 'img/escuts/valladolid.png',
+    'Cádiz CF': 'img/escuts/cadiz.png',
+    'Rayo Vallecano': 'img/escuts/rayo-vallecano.png',
+    'Leganés': 'img/escuts/leganes.png',
+    'Alavés': 'img/escuts/alaves.png',
+    'Celta Vigo': 'img/escuts/celta-vigo.png'
 };
 
 Promise.all([

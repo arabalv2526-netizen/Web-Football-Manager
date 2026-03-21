@@ -42,7 +42,20 @@ const equips = [
     'Deportivo Abanca',
     'SD Eibar',
     'Granada CF',
-    'Levante UD'
+    'Levante UD', 
+    'Las Palmas',
+    'Real Valladolid',
+    'Cádiz CF',
+    'Getafe CF',
+    'Villarreal CF',
+    'Rayo Vallecano',
+    'Leganés',
+    'Alavés',
+    'Celta Vigo',
+    'Osasuna', 
+    'Mallorca',
+    'Sevilla',
+    'Valencia',
 ];
 
 const selectEquip = document.querySelector('#select-equip');
