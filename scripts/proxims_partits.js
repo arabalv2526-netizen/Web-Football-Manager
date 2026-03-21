@@ -1,4 +1,4 @@
-fetch('/data/partits_proxims.json')
+fetch('data/partits_proxims.json')
     .then(res => res.json())
     .then(partits =>{
         const container = document.getElementById("llista-partits");
